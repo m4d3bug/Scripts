@@ -32,7 +32,6 @@ jobs:
         run: |
           cd ~/Scripts
           node Task/Auto_Kuaishou.js
-          echo ${{ secrets }}
         env:
           PUSH_KEY: ${{ secrets.PUSH_KEY }}
           BARK_PUSH: ${{ secrets.BARK_PUSH }}
